@@ -17,4 +17,7 @@ Mot so cau lenh ve git:
 - git checkout Ten_nhanh: De di chuyen den nhanh minh can lam viec hoac xem.
 - git branch -D Ten_nhanh: De xoa 1 nhanh nao do khi khong con can thiet nua nhu thuc hien xong nhiem vu hoac bi loi.(Co the xoa luon ca nhanh/branch master)
 - git merge Ten_nhanh: De gop nhung gi minh da lam vao nhanh khac.
+- git reset --soft Ma_commit: Dung de chuyen tu Git repository ve Staging area.
+- git reset --mixed Ma_commit: Dung de chuyen tu Git repository hoac Staging area ve working directory.
+- git reset --hard Ma_commit: Dung de xoa luon commit va nhung thay doi cua commit do.
 
