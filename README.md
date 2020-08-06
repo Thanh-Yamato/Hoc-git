@@ -19,5 +19,6 @@ Mot so cau lenh ve git:
 - git merge Ten_nhanh: De gop nhung gi minh da lam vao nhanh khac.
 - git reset --soft Ma_commit: Dung de chuyen tu Git repository ve Staging area.
 - git reset --mixed Ma_commit: Dung de chuyen tu Git repository hoac Staging area ve working directory.
-- git reset --hard Ma_commit: Dung de xoa luon commit va nhung thay doi cua commit do.
-
+- git reset --hard Ma_commit: Dung de xoa luon commit va nhung thay doi cua commit do.(Han che dung, dung de bi mat ma minh da viet)
+- git revert Ma_commit: Dung de lay mot commit cho len dau de thay doi ma khong thay doi cac commit o giua.(Han che dung, dung de bi mat ma minh da viet)
+ File .gitignore: Tao file .gitignore de bo qua cac file,thu muc minh khong muon commit vao Git repository.
