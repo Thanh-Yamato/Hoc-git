@@ -22,6 +22,9 @@ Mot so cau lenh ve git:
 - git reset --hard Ma_commit: Dung de xoa luon commit va nhung thay doi cua commit do.(Han che dung, dung de bi mat ma minh da viet)
 - git revert Ma_commit: Dung de lay mot commit cho len dau de thay doi ma khong thay doi cac commit o giua.(Han che dung, dung de bi mat ma minh da viet)
 - File .gitignore: Tao file .gitignore de bo qua cac file,thu muc minh khong muon commit vao Git repository.
-- git remote add origin Link_git: Để tạo liên kết file lên trên github.
+- git remote add origin Link_github: Để tạo liên kết file lên trên github.
 - git push -u origin master: Để push các file trong nhánh master lên trên github khi lần đầu push.
 - git push: Để push các thay đổi lên github những lần sau.
+- git clone Link_github: De tai git repo ve may.
+- git pull: De tai nhung commit da thay doi ve may.
+- git push origin Ten_branch: Dung de them 1 branch len github.
