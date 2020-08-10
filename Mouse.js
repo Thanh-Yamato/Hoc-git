@@ -7,8 +7,8 @@ Mouse.prototype.getName = function() {
 	console.log(this.name);
 }
 
-Mouse.prototype.eat = function() {
-	console.log('Eating.....');
+Mouse.prototype.sleep = function() {
+	console.log('Sleeping.....');
 };
 
 module.exports = Mouse;
