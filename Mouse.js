@@ -9,7 +9,11 @@ Mouse.prototype.getName = function() {
 
 Mouse.prototype.play = function() {
 	console.log('Playing.....');
-};
+}
+
+Mouse.prototype.sleep = function() {
+	console.log('Sleeping.....');
+}
 
 module.exports = Mouse;
 
