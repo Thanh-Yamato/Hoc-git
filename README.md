@@ -28,3 +28,7 @@ Mot so cau lenh ve git:
 - git clone Link_github: De tai git repo ve may.
 - git pull: De tai nhung commit da thay doi ve may.
 - git push origin Ten_branch: Dung de them 1 branch len github.
+- git pull origin master: De tai nhung commit da thay doi ve may.
+- git push origin Ten_branch: Dung de them 1 branch len github.
+- git fetch origin Ten_branch: Dung de tai code nguoi khac da pull len tren branch cua ho ve may minh de kiem tra code => git checkout Ten_branch_do: Dung de chuyen sang branch do de xem.
+- git rebase master: De tai cac file co confict ve chinh sua tren branch minh muon sua => Sau do sua lai => git add Ten_file => git rebase --continue => git push origin Ten_nhanh -f: De sua lai thu tu commit, tuc la thay commit cu da bi conflict roi commit lai de pull request chu khong phai them commit moi.
