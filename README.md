@@ -25,7 +25,7 @@ Mot so cau lenh ve git:
 - git remote add origin Link_github: Để tạo liên kết file lên trên github.
 - git push -u origin master: Để push các file trong nhánh master lên trên github khi lần đầu push.
 - git push: Để push các thay đổi lên github những lần sau.
-- git clone Link_github: De tai git repo ve may.
+- git clone Link_github: De tai git repo ve may lan dau.
 - git pull: De tai nhung commit da thay doi ve may.
 - git push origin Ten_branch: Dung de them 1 branch len github.
 - git pull origin master: De tai nhung commit da thay doi ve may.
@@ -34,4 +34,5 @@ Mot so cau lenh ve git:
 - git rebase master: De tai cac file co confict ve chinh sua tren branch minh muon sua => Sau do sua lai => git add Ten_file => git rebase --continue => git push origin Ten_nhanh -f: De sua lai thu tu commit, tuc la thay commit cu da bi conflict roi commit lai de pull request chu khong phai them commit moi.
 - De thoat khoi nhung thu minh khong thoat duoc: 
 	+ Nhan q.
-	+ Nhan vai lan phim Esc => Nhan :q! => Nhan Enter.
+	+ Nhan vai lan phim Esc => Nhan :q! => Nhan Enter. 
+- git remote -v: De xem duong dan de push va fetch.
